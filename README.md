@@ -13,8 +13,7 @@
   Kai Han.
 </p>
 
-[//]: # (![teaser]&#40;assets/method.png&#41;)
-<p style="text-align: center;">
+<p align="center">
   <img src="assets/method.png" alt="teaser" width="80%" />
 </p>
 
