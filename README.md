@@ -13,7 +13,11 @@
   Kai Han.
 </p>
 
-![teaser](assets/method.png)
+[//]: # (![teaser]&#40;assets/method.png&#41;)
+<p style="text-align: center;">
+  <img src="assets/method.png" alt="teaser" width="80%" />
+</p>
+
 
 ## Prerequisite 🛠️
 
