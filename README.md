@@ -53,21 +53,20 @@ We also use fine-grained benchmarks (CUB, Stanford-cars, FGVC-aircraft). You can
 
 
 ### Scripts
-We use the slurm system to run the code. The scripts to train and eval each method can be found in the folder `/scripts`. For example, to train and eval on CUB dataset.
+We use the slurm system to run the code. The scripts to train and eval DebGCD models on different datasets can be found in the folder `/scripts`. For example, to train and eval on Stanford Cars dataset.
 
 **Eval the model**
 ```
-sbatch scripts/eval_DebGCD.cmd cub v1 0.1 2.0
+sbatch scripts/eval_DebGCD.cmd scars
 ```
 
 **Train the model**:
 
 ```
-sbatch scripts/train_DebGCD.cmd cub v1 0.1 2.0 0.3
+sbatch scripts/train_scars.cmd
 ```
-Just change the dataset name (``cub``), its corresponding DINO version (``v1``) and the hyperparameters.
-
-
+Please note that we have further tuned the hyperparameters to get optimal performance on each dataset, which can be slightly different under different conda environments. So, it's suggested to use install the environment following the provided requirements.
+Our models can be downloaded from this [link](https://drive.google.com/drive/folders/1SLwmU5wB3wg_90W6mhbtUrJd7DTw3bsQ?usp=sharing).
 
 ## Citing this work
 <span id="jump"></span>
